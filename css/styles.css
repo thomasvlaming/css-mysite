@@ -1,0 +1,36 @@
+body {
+  margin: 0px;
+}
+
+.top-container {
+  background-color: #E4F9F5;
+}
+
+.middle-container {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  position: absolute;
+  display: inline-block;
+  /* left: 400px; */
+  /*top: 927px;*/
+}
+
+.bottom-container {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  position: absolute;
+  display: inline-block;
+  left: 400px;
+  /*top: 727px;*/
+}
+
+.yellow {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  position: absolute;
+  left: 200px;
+  display: inline-block;
+}
