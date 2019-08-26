@@ -1,36 +1,40 @@
 body {
   margin: 0px;
+  text-align: center;
 }
 
 .top-container {
   background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
 }
 
 .middle-container {
   width: 200px;
   height: 200px;
   background-color: red;
-  position: absolute;
-  display: inline-block;
-  /* left: 400px; */
-  /*top: 927px;*/
 }
 
 .bottom-container {
   width: 200px;
   height: 200px;
   background-color: blue;
-  position: absolute;
-  display: inline-block;
-  left: 400px;
-  /*top: 727px;*/
 }
 
 .yellow {
   width: 200px;
   height: 200px;
   background-color: green;
+}
+
+.bottom-cloud {
   position: absolute;
-  left: 200px;
-  display: inline-block;
+  left: 300px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px
 }
